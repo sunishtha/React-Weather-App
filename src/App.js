@@ -1,14 +1,11 @@
-import Weather from './components/Weather'
-import './App.css';
+import React from "react";
+import Cart from "./components/Cart";
 
-
-function App() {
- 
-  return (
-    <div className="App">
-     <Weather/>
-    </div>
-  );
+export default function App(){
+  return(
+    <>
+    <Cart />
+    </>
+  )
 }
 
-export default App;
